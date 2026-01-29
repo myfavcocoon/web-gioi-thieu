@@ -996,3 +996,13 @@ li:hover {
     }
 }
 
+/* Banner override to ensure consistent height across hosts (Vercel etc.) */
+.banner {
+    min-height: 60vh; /* ensure banner occupies a large portion of viewport */
+    padding: 4rem 0; /* reduce padding but keep spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+}
+
