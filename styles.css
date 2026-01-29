@@ -231,6 +231,7 @@ body > .container {
     background: url("img/BANNER2.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 60dvh;
     padding: 12rem 0;
     text-align: center;
     color: var(--light-text);
