@@ -228,7 +228,7 @@ body > .container {
 
 /* ================= BANNER ================= */
 .banner {
-    background: url("img/BANNER2.jpg") no-repeat center 60%;
+    background: url("img/BANNER2.jpg") no-repeat center 80%;
     background-size: cover;
     background-attachment: fixed;
     min-height: 60dvh;
