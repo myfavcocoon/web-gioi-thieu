@@ -518,6 +518,34 @@ footer a:hover {
     width: 100%;
 }
 
+/* Ensure visited links don't change color (keep consistent appearance) */
+.link:visited,
+a:visited {
+    color: var(--primary-color);
+}
+
+/* Base anchor defaults to primary color; hover styles remain unchanged */
+a, a:link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Map link style: visible conventional hyperlink, but keep same color when visited */
+.map-link {
+    color: #1a73e8; /* Google blue */
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.map-link:visited {
+    color: #1a73e8; /* do not change on visited */
+}
+
+.map-link:hover {
+    color: #1259b6;
+    text-decoration: underline;
+}
+
 .menu {
     font-size: 1.1rem;
     text-decoration: none;
